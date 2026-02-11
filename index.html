@@ -1,74 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cours, Bien-être et Accompagnement – Anatole</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anatole Consulting</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Anatole</h1>
-        <nav>
-            <a href="#accueil">Accueil</a>
-            <a href="#cours">Cours</a>
-            <a href="#massages">Massages</a>
-            <a href="#autres">Autres</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+  <header class="container header">
+    <div class="logo">Anatole Consulting</div>
+    <nav class="nav">
+      <a href="#services">Services</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn" href="#contact">Me contacter</a>
+  </header>
 
-    <section id="accueil" class="hero">
-        <h2>Bienvenue sur mon site</h2>
-        <p>Je propose des <strong>cours de mathématiques et de physique</strong> jusqu’au niveau terminale, 
-        ainsi que des <strong>massages relaxants</strong> et d'autres services liés au bien-être.</p>
-        <a href="#contact" class="btn">Me contacter</a>
-    </section>
+  <main>
+    <section class="hero container">
+      <div class="hero-left">
+        <h1>Un site simple, rapide et élégant.</h1>
+        <p>
+          Une page d’accueil moderne pour présenter ton activité, ton projet ou ton portfolio.
+          Responsive (mobile / PC) et facile à modifier.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#services">Voir les services</a>
+          <a class="btn btn-outline" href="#projets">Voir les projets</a>
+        </div>
 
-    <section id="cours">
-        <h2>📚 Cours particuliers</h2>
-        <p>J’accompagne les élèves du collège au lycée, pour renforcer leurs bases et leur confiance.</p>
+        <div class="badges">
+          <span>⚡ Rapide</span>
+          <span>📱 Responsive</span>
+          <span>🎨 Personnalisable</span>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h3>Présentation</h3>
         <ul>
-            <li>Mathématiques – de la 6ᵉ à la Terminale</li>
-            <li>Physique-Chimie – notions fondamentales et approfondissement</li>
-            <li>Préparation au bac, aide aux devoirs, remise à niveau</li>
+          <li>Page d’accueil pro</li>
+          <li>Services</li>
+		  <li>Projets</li>
+          <li>Formulaire de contact</li>
         </ul>
-        <p><strong>Tarifs :</strong> à partir de 12 €/h</p>
+        <div class="card-mini">
+          <strong>Astuce</strong>
+          <p>Tu peux remplacer les textes et couleurs en 2 minutes.</p>
+        </div>
+      </div>
     </section>
 
-    <section id="massages" class="alt">
-        <h2>💆‍♂️ Massages & Bien-être</h2>
-        <p>Je propose des massages personnalisés, adaptés à vos besoins :</p>
-        <ul>
-            <li>Massage relaxant</li>
-            <li>Détente musculaire</li>
-            <li>Massage crânien</li>
-        </ul>
-        <p><strong>Tarifs :</strong> à partir de 50 €/h</p>
+    <section id="services" class="section container">
+      <h2>Services</h2>
+      <p class="muted">Exemples de services (change-les selon ton besoin).</p>
+
+      <div class="grid">
+        <article class="card">
+          <h3>Création</h3>
+          <p>Une page claire pour présenter ton projet ou ton activité.</p>
+        </article>
+        <article class="card">
+          <h3>Design</h3>
+          <p>Une mise en page moderne, lisible, et adaptée mobile.</p>
+        </article>
+        <article class="card">
+          <h3>Optimisation</h3>
+          <p>Structure simple, chargement rapide, facile à maintenir.</p>
+        </article>
+      </div>
     </section>
 
-    <section id="autres">
-        <h2>🌿 Autres services</h2>
-        <p>Parce que le bien-être passe aussi par l’équilibre intérieur :</p>
-        <ul>
-            <li>Accompagnement à la concentration et à la gestion du stress</li>
-            <li>Initiation à la méditation et relaxation</li>
-            <li>Soutien méthodologique et organisationnel</li>
-        </ul>
+    <section id="projets" class="section container">
+      <h2>Projets</h2>
+      <p class="muted">Quelques cartes “projets” (tu peux mettre des images ensuite).</p>
+
+      <div class="grid">
+        <article class="card project">
+          <div class="project-top">
+            <span class="tag">Web</span>
+            <span class="tag">Landing</span>
+          </div>
+          <h3>Projet Alpha</h3>
+          <p>Présentation rapide du projet et de ce que ça apporte.</p>
+        </article>
+        <article class="card project">
+          <div class="project-top">
+            <span class="tag">Portfolio</span>
+            <span class="tag">UI</span>
+          </div>
+          <h3>Projet Beta</h3>
+          <p>Un exemple de page portfolio simple et efficace.</p>
+        </article>
+        <article class="card project">
+          <div class="project-top">
+            <span class="tag">App</span>
+            <span class="tag">Produit</span>
+          </div>
+          <h3>Projet Gamma</h3>
+          <p>Une page vitrine pour une application / un produit.</p>
+        </article>
+      </div>
     </section>
 
-    <section id="contact" class="alt">
-        <h2>📞 Contact</h2>
-        <p>Tu peux me contacter pour toute question ou réservation :</p>
-        <ul>
-            <li><strong>Email :</strong> gardette.anatole@gmail.com</li>
-            <li><strong>Téléphone :</strong> 07 49 58 15 88</li>
-        </ul>
-    </section>
+    <section id="contact" class="section container">
+      <h2>Contact</h2>
+      <p class="muted">Formulaire visuel (tu pourras l’envoyer vers un service plus tard).</p>
 
-    <footer>
-        <p>&copy; 2025 Anatole – Tous droits réservés.</p>
-    </footer>
+      <form class="form" onsubmit="event.preventDefault(); alert('Message envoyé (démo) ✅');">
+        <label>
+          Nom
+          <input type="text" placeholder="Ton nom" required />
+        </label>
+        <label>
+          Email
+          <input type="email" placeholder="ton@email.com" required />
+        </label>
+        <label>
+          Message
+          <textarea rows="5" placeholder="Dis-moi ce que tu veux faire 🙂" required></textarea>
+        </label>
+        <button class="btn" type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>© <span id="year"></span> Anatole Consulting — Tous droits réservés.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
